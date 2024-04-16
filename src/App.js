@@ -1,15 +1,18 @@
 import "./App.css";
+import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png";
 
 function App() {
   return (
     <div className="App">
       <div className="freecodecamp-logo-contenedor">
         <img
-          src={}
+          src={freeCodeCampLogo}
           className="freecodecamp-logo"
-          alt="Logo de freeCodeCamp" />
+          alt="Logo de freeCodeCamp"
+        />
       </div>
-    </div>);
+    </div>
+  );
 }
 
 export default App;
